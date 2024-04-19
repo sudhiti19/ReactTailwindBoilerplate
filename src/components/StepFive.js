@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image2 from '../victory.jpg';
 import { Link } from 'react-router-dom';
-import Loading from './Loading';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleChevronLeft} from '@fortawesome/free-solid-svg-icons';
 const StepFive = ({ prevStep, nextStep }) => {
@@ -53,7 +53,7 @@ const StepFive = ({ prevStep, nextStep }) => {
           </button>
         </Link>
       </div>
-      {loading && <Loading />}
+      
     </div>
   );
 };
