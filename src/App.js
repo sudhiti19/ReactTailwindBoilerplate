@@ -11,7 +11,7 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/step-one" element={<StepOne />} />
+        <Route path="/" element={<StepOne />} />
         <Route path="/step-two" element={<StepTwo />} />
         <Route path="/step-three" element={<StepThree />} />
         <Route path="/step-four" element={<StepFour />} />

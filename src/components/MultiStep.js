@@ -18,7 +18,7 @@ const MultiStepForm = () => {
   };
   return (
     <Routes>
-      <Route path="/step-one" element={<StepOne />} ></Route>
+      <Route path="/" element={<StepOne />} ></Route>
       <Route path="/step-two" element={<StepTwo prevStep={prevStep} />} ></Route>
       <Route path="/step-three" element={<StepThree prevStep={prevStep}/>} ></Route>
       <Route path="/step-four" element={<StepFour prevStep={prevStep}/>} ></Route>

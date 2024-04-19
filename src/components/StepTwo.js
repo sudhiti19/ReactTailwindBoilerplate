@@ -15,7 +15,7 @@ const StepTwo = ({ prevStep }) => {
 
     <div className="container mx-auto">
       
-        <Link to="../step-one" className="inline-block align-middle" >
+        <Link to="/" className="inline-block align-middle" >
         <FontAwesomeIcon icon={faCircleChevronLeft} className='ml-6 mt-4 w-7 h-auto' />
         </Link>
       
